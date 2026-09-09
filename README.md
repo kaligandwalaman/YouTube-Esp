@@ -1,11 +1,10 @@
-```markdown
 # 🕷️ Spidey GMR — Master Channel Blueprint & Execution Guide
 
 Official strategic, technical, and operational manual for launching, structuring, and monetizing the **Spidey GMR** gaming channel through the **YouTube Partner Program (YPP)** without triggering *Reused Content* or *Repetitive Content* flags.
 
 ---
 
-## 📌 Executive Summary
+##  Executive Summary
 
 * **Brand Handle:** `@SpideyGMR`
 * **Core Niche:** Ultra-Realistic PC Gaming, Tactical Shooters (*Bodycam*), Realistic Simulators (*Forza Horizon*, *GTA V*)
@@ -14,9 +13,9 @@ Official strategic, technical, and operational manual for launching, structuring
 
 ---
 
-## 🎯 Channel Identity & Positioning Rules
+##  Channel Identity & Positioning Rules
 
-### 🚫 Prohibited Keywords (YPP Red Flags)
+###  Prohibited Keywords (YPP Red Flags)
 Never use the following phrases in video titles, thumbnails, tags, or channel headers:
 * ❌ `FREE TO USE GAMEPLAY`
 * ❌ `NO COPYRIGHT FOOTAGE`
@@ -35,13 +34,12 @@ Structure titles around **experiences, missions, specs, and challenges**:
 
 This production formula preserves clean uninterrupted windows for external editors while keeping contextual commentary tied to in-game action to comply with YouTube monetization guidelines.
 
-
-```
+```text
 0:00        0:30               3:00   3:15              6:30   6:45              9:30       10:00
 ┌───────────┬──────────────────┬──────┬─────────────────┬──────┬─────────────────┬──────────┐
 │   HOOK    │  CLEAN BLOCK 1   │ SPOT │  CLEAN BLOCK 2  │ SPOT │  CLEAN BLOCK 3  │  OUTRO   │
 │ (Voice)   │  (Pure In-Game)  │  1   │  (Pure In-Game) │  2   │  (Pure In-Game) │ (Voice)  │
-└───────────┴──────────────────┴──────┴─────────────────┴──────┴─────────────────┴──────────┘
+└───────────┴──────────────────┴───────────────────────┴──────┴─────────────────┴──────────┘
 ```
 
 ### Segment Breakdown (10-Minute Target)
@@ -77,11 +75,13 @@ High-fidelity gameplay capture played, recorded, and produced by Spidey GMR. Exp
 9:31 - Post-Run Verdict & Wrap Up
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
 📢 CONTENT CREATOR ATTRIBUTION POLICY:
 Creators are welcome to utilize silent sections of this footage for review, analysis, commentary, or short-form transformative videos under these conditions:
 1. Meaningful Transformation: You must add your own voiceover, edits, or reaction. 1:1 re-uploads without value are prohibited.
 2. Attribution: Include the credit line below in your description:
-   "Gameplay Source: Spidey GMR ([https://youtube.com/@SpideyGMR](https://youtube.com/@SpideyGMR))"
+   "Gameplay Source: Spidey GMR (https://youtube.com/@SpideyGMR)"
+
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 🖥️ CAPTURE SPECIFICATIONS:
@@ -92,53 +92,63 @@ Creators are welcome to utilize silent sections of this footage for review, anal
 🔔 Subscribe to Spidey GMR for daily 4K gaming showcases and weekly tactical live streams!
 
 #SpideyGMR #4KGaming #PCGaming #TacticalShooter #[GameKeyword]
+```
 
-```
-## 🔴 OBS Studio Live Streaming Configuration
+---
+
+##  OBS Studio Live Streaming Configuration
+
 Live streams establish human authenticity and generate qualified watch hours rapidly.
-### Video Encoding Settings
- * **Base (Canvas) Resolution:** 1920x1080 or 2560x1440
- * **Output (Scaled) Resolution:** Match Canvas (No downscaling)
- * **Rate Control:** CBR
- * **Bitrate:**
-   * 1080p 60FPS: 6,500 - 8,500 Kbps
-   * 1440p / 4K: 14,000 - 18,000 Kbps
- * **Keyframe Interval:** 2s
- * **Preset:** P5 (Slow / Good Quality) or P6 (Slower / Better Quality)
-### Audio Tracks Architecture
- * **Track 1 (Stream Output):** Mixed Master (Mic + In-Game + Alerts)
- * **Track 2 (VOD Track):** Clean Game Audio Only (No copyrighted music)
- * **Mic Filters:** Noise Suppression (RNNoise) ➔ 3-Band EQ ➔ Compressor ➔ Limiter (-1.5 dB)
-### Browser Source Overlay (Donation.html)
- * **Source Type:** Browser Source
- * **Target File:** Local file checked ➔ Donation.html
- * **Source Dimensions:** Width: 480 | Height: 130
- * **Placement:** Bottom-Left or Bottom-Right corner (Ensure game mini-maps and ammo counters remain unobstructed)
+
+###  Video Encoding Settings
+* **Base (Canvas) Resolution:** `1920x1080` or `2560x1440`
+* **Output (Scaled) Resolution:** Match Canvas (No downscaling)
+* **Rate Control:** CBR
+* **Bitrate:**
+  * `1080p 60FPS:` 6,500 - 8,500 Kbps
+  * `1440p / 4K:` 14,000 - 18,000 Kbps
+* **Keyframe Interval:** `2s`
+* **Preset:** `P5` (Slow / Good Quality) or `P6` (Slower / Better Quality)
+
+### 🎧 Audio Tracks Architecture
+* **Track 1 (Stream Output):** Mixed Master (Mic + In-Game + Alerts)
+* **Track 2 (VOD Track):** Clean Game Audio Only (No copyrighted music)
+* **Mic Filters:** Noise Suppression (RNNoise) ➔ 3-Band EQ ➔ Compressor ➔ Limiter (-1.5 dB)
+
+### 🌐 Browser Source Overlay (Donation.html)
+* **Source Type:** Browser Source
+* **Target File:** Local file checked ➔ `Donation.html`
+* **Source Dimensions:** Width: `480` | Height: `130`
+* **Placement:** Bottom-Left or Bottom-Right corner (Ensure game mini-maps and ammo counters remain unobstructed)
+
+---
+
 ## 📈 Phased Growth & Monetization Roadmap
-```
+
+```text
 Phase 1: Foundation ──► Phase 2: Seeding ──► Phase 3: Acceleration ──► Phase 4: YPP
    (Days 1 - 3)           (Weeks 1 - 4)           (Weeks 5 - 12)        (Threshold)
-
 ```
-### Phase 1: Foundation (Days 1–3)
- 1. Register fresh Gmail and create @SpideyGMR.
- 2. Enable 2-Step Verification and verify phone number for advanced features.
- 3. Activate **Live Streaming** inside YouTube Studio (requires 24-hour waiting window).
- 4. Set default video upload metadata and channel category to **Gaming**.
-### Phase 2: Seeding (Weeks 1–4)
- 1. Produce and upload **4 to 6 long-form videos** using the 4-Spot Pacing Formula.
- 2. Cut **2 to 3 high-intensity vertical Shorts** from every long-form video.
- 3. Keep uploads **Unlisted** for 60 minutes after processing to verify that the automated copyright and content check clears green before going **Public**.
-### Phase 3: Acceleration (Weeks 5–12)
- 1. Commit to **1–2 scheduled weekly live streams** (minimum 2 hours per stream).
- 2. Play *Bodycam* or tactical squad games where live voice interaction is continuous.
- 3. Pin the creator attribution link in comments to invite community reuse and backlink traffic.
-### Phase 4: YPP Audit & Monetization Review
- 1. Reach milestone requirements:
+
+### 🏗️ Phase 1: Foundation (Days 1–3)
+1. Register fresh Gmail and create `@SpideyGMR`.
+2. Enable 2-Step Verification and verify phone number for advanced features.
+3. Activate **Live Streaming** inside YouTube Studio (requires 24-hour waiting window).
+4. Set default video upload metadata and channel category to **Gaming**.
+
+### 🌱 Phase 2: Seeding (Weeks 1–4)
+1. Produce and upload **4 to 6 long-form videos** using the 4-Spot Pacing Formula.
+2. Cut **2 to 3 high-intensity vertical Shorts** from every long-form video.
+3. Keep uploads **Unlisted** for 60 minutes after processing to verify that the automated copyright and content check clears green before going **Public**.
+
+###  Phase 3: Acceleration (Weeks 5–12)
+1. Commit to **1–2 scheduled weekly live streams** (minimum 2 hours per stream).
+2. Play *Bodycam* or tactical squad games where live voice interaction is continuous.
+3. Pin the creator attribution link in comments to invite community reuse and backlink traffic.
+
+### 💰 Phase 4: YPP Audit & Monetization Review
+1. Reach milestone requirements:
    * **Tier 1:** 500 Subscribers + 3,000 Watch Hours (Supers, Memberships)
    * **Tier 2:** 1,000 Subscribers + 4,000 Watch Hours (Full AdSense Video Ads)
- 2. Run a pre-submission channel audit: verify that all public videos feature human commentary checkpoints and accurate descriptions.
- 3. Submit application to the YouTube Partner Program.
-```
-
-```
+2. Run a pre-submission channel audit: verify that all public videos feature human commentary checkpoints and accurate descriptions.
+3. Submit application to the YouTube Partner Program.
